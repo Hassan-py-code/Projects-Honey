@@ -27,6 +27,11 @@ body{
 }
 
 nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: var(--color5);
     box-shadow: 0 0 10px var(--color2);
 
 }
@@ -160,6 +165,7 @@ section .image img{
 @media screen and (min-width:300px) and (max-width:320px) {
       section{
         padding: 4rem;
+        margin-top: 50px;
          flex-direction: column-reverse;
       }
       .section-content h1{
@@ -178,6 +184,7 @@ section .image img{
 @media screen and (min-width:321px) and (max-width:480px) {
     section{
       padding: 4rem;
+      margin-top: 80px;
        flex-direction: column-reverse;
     }
     .section-content h1{
@@ -195,6 +202,7 @@ section .image img{
 @media screen and (min-width:481px) and (max-width:767px) {
     section{
       padding: 4rem;
+      margin-top: 50px;
        flex-direction: column-reverse;
     }
     .section-content h1{
@@ -652,7 +660,7 @@ section .image img{
 /* CREAT FOOTER */
 
 .footer{
-    padding: 5rem 0 5rem 0;
+    padding: 5rem 0 2rem 0;
     text-align: center;
 }
 
@@ -663,7 +671,7 @@ section .image img{
 }
 /* icon media */
 .media a{
-    margin-left: 30px;
+    margin-left: 15px;
     color: var(--color2);
     font-size: 2rem;
 }
@@ -673,7 +681,7 @@ section .image img{
 }
 
 .content-footer a{
-    margin-left: 30px;
+    /* margin-left: 30px; */
     font-size: 1.4rem;
     color: var(--color1);
 }
@@ -683,15 +691,15 @@ section .image img{
 
 @media screen and (min-width:300px) and (max-width:767px) {
     .media a{
-        margin-left: 30px;
-       display: block;
+        /* margin-left: 30px; */
+       /* display: block; */
        margin-top: 10px;
        font-size: 3em;
     }
 
     .content-footer a{
         display: block;
-
+        margin-top: 15px;
     }
 
      
